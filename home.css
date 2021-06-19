@@ -1,0 +1,85 @@
+
+h1{
+	margin: 0;
+}
+html, body{
+	margin: 0;
+	height: 100%;
+
+}
+header{
+	height: 100%;
+	background-image: url('./bgpage.png');
+	background-size: 100% 100%;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+ 	width: 450px;
+}
+
+.square {
+  font-size: 20px;
+  height: 149px;
+  width: 256px;
+  background-color: #E0B973;
+  border-radius: 0 0 35px 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.top-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 200px 0 33px;
+}
+
+.bghid{
+	height: 100%;
+	background-color: rgba(20, 38, 74, 0.5);
+}
+
+.allBooknow{
+	margin-top: 108px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.Booknow{
+	font-size: 25px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius:15px;
+	background-color: #E0B973;
+	width: 268px;
+	height: 78px;
+}
+
+.HomeText{
+	color: white;
+	padding-left: 20px;
+}
+
+.transmisions{
+	font-size: 25px;
+}
